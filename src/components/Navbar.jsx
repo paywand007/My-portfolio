@@ -9,7 +9,7 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import paywand from '../assets/aa.png'
+import paywand from '../assets/pm.png'
  
 import { Link } from 'react-scroll';
 
@@ -19,7 +19,7 @@ function Navbar() {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#00909E]'>
 <div>
-<img src={paywand} alt=" logo " className='w-[200px]'  />
+<img src={paywand} alt=" logo " className='w-[100px] p-1'  />
 </div>
  
   <ul className='hidden md:flex justify-start text-white'>
@@ -30,7 +30,8 @@ function Navbar() {
             About Me
           </Link></li>
     <li><Link to='skills' smooth={true} duration={500}>
-            Skills
+    Education and Skills
+
           </Link></li>
           <li><Link to='work' smooth={true} duration={500}>
          Projects
@@ -52,7 +53,7 @@ function Navbar() {
             About Me
           </Link></li>
     <li className='py-6 text-4xl'><Link onClick={handleClick} to='skills' smooth={true} duration={500}>
-            Skills
+          Education and Skills
           </Link></li>
     <li className='py-6 text-4xl'><Link onClick={handleClick} to='work' smooth={true} duration={500}>
          Projects

@@ -9,14 +9,16 @@ const Work = () => {
     //setProject(data);
   
   return (
-    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#00909E]'>
+    <div name='work' className='w-full sm:h-screen md:h-screen text-gray-300 bg-[#00909E]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-        <div className='pb-8 text-center'>
-          <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-white text-center'>
+     <div className='mt-[200px] md:mt-9 sm:md-9'>
+     <div className='pb-8 text-center'>
+          <p className='text-4xl font-bold inline border-b-4   border-white text-center md:mt-9 text-[#FCFFE7]'>
         My Projects
           </p>
-          <p className='py-6'> Check out some of my recent projects</p>
+          <p className='py-6 text-[#FCFFE7]'> Check out some of my recent projects</p>
         </div>
+     </div>
 
 {/* container for projects */}
 <div className="grid  sm:grid-cols-2 md:grid-cols-2 md:grid-row-3  gap-4">
